@@ -11,10 +11,14 @@
 2- Bölgeler arasında(Ege, Marmara, Karadeniz) oy verme eğilimi açısından nasıl bir fark var? Büyük şehirler ve diğer şehirler arasında nasıl bir fark var? Elimde bu veri yok fakat 81 şehri bölgelerine ve şehir/büyük şehir olarak ayırmak fazla zor olmayacağından bunu da incelemek isterim.
 
 ## Analiz
-İlk soruya partilerin 2019 seçimlerinde kazandıkları belediye sayılarını grafiğe dökerek başlayalım.
+#### Alınan belediye sayısı
+İlk soruya partilerin 2019 seçimlerinde kazandıkları belediye sayılarını grafiğe döküp inceleyerek başlayalım. Bu seçim için muhtemelen en önemlisi olan bu metrikte CHP, kazandığı belediye sayısını, kendileri için yine iyi geçen bir yıl olan 2019a kıyasla neredeyse ikiye katlayarak iktidar partisi AKP ile yer değiştirmiş. DEM Parti ve Yeniden Refah Partisi'de bu metrikte iyi performans gösteren diğer partiler.
 
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/822ee742-f766-4b54-a289-550e566d100d)
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/e8e92b14-923a-4a41-b523-99cbd684e52c)
+#### Alınan oy sayısı
+Partilerin aldığı oy sayısını bulmak için ilk önce partilerin her şehirde "belediye başkanlığı" seçimi için aldığı oyları topladım. Fakat bunu yaptıktan sonra bulduğum sonucun diğer kaynaklardan bulduğum sonuç ile eşleşmediğini gördüm. Biraz araştırma yaptıktan sonra, toplam oy hesaplanırken, büyük şehir olmayan şehirlerde il genel meclisi oylarının hesaba katıldığını öğrendim. İkinci grafikte bu şekilde hesap yaptım. 
+ 
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/e34c1782-c1a2-4da5-925d-559114f7e289)
 büyükşehir olmayanlar için il meclisi verisi:
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/b9b9a323-e36b-47a9-9ff0-146947402443)
