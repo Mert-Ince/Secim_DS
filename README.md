@@ -13,14 +13,16 @@
 ## Analiz
 #### Alınan belediye sayısı
 İlk soruya partilerin 2019 seçimlerinde kazandıkları belediye sayılarını grafiğe döküp inceleyerek başlayalım. Bu seçim için muhtemelen en önemlisi olan bu metrikte CHP, kazandığı belediye sayısını, kendileri için yine iyi geçen bir yıl olan 2019a kıyasla neredeyse ikiye katlayarak iktidar partisi AKP ile yer değiştirmiş. DEM Parti ve Yeniden Refah Partisi'de bu metrikte iyi performans gösteren diğer partiler.
+<br/><br/>
 
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/822ee742-f766-4b54-a289-550e566d100d)
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/e8e92b14-923a-4a41-b523-99cbd684e52c)
 #### Alınan oy sayısı
-Partilerin aldığı oy sayısını bulmak için ilk önce partilerin her şehirde "belediye başkanlığı" seçimi için aldığı oyları topladım. Fakat bunu yaptıktan sonra bulduğum sonucun diğer kaynaklardan bulduğum sonuç ile eşleşmediğini gördüm. Biraz araştırma yaptıktan sonra, toplam oy hesaplanırken, büyük şehir olmayan şehirlerde il genel meclisi oylarının hesaba katıldığını öğrendim. İkinci grafikte bu şekilde hesap yaptım. 
+Partilerin aldığı oy sayısını bulmak için ilk önce partilerin her şehirde "belediye başkanlığı" seçimi için aldığı oyları topladım. Fakat bunu yaptıktan sonra bulduğum sonucun diğer kaynaklardan bulduğum sonuç ile eşleşmediğini gördüm. Biraz araştırma yaptıktan sonra, toplam oy hesaplanırken, büyükşehir olmayan şehirlerde il genel meclisi oylarının hesaba katıldığını öğrendim. İkinci grafikte hesabı bu şekilde yaptım. Grafiklerin sol üstündeki "1e7", Y eksenindeki sayıların 10*7 yani 10,000,000 ile çarpılması gerektiğini gösteriyor. Grafiklere baktığımızda ise durumun alınan belediye sayısından biraz farklı olduğunu görüyoruz. CHP, AKP'den sadece %6 fazla oy alarak %45 daha fazla şehir almayı başarmış. Bu durum CHP'nin küçük şehirlerde daha popüler olduğunu veya CHP'nin aldığı şehirlerde, aralarındaki oy farkının düşük olduğunu gösteriyor olabilir. Seçim sonucu haritasını gördüğüm için ilk önermenin doğru olmadığını biliyorum fakat bu 2 olasılığı da ileride daha derinden inceleyebiliriz. Grafikte görebileceğimiz bir başka durum ise DEM Parti ve MHP'nin oylarının kıyasla düşük olmasına rağmen aldıkları belediye sayılarının yüksek olması. Bu durum yine belki bu partilerin küçük şehirlerde daha popüler olduklarını gösteriyor olabilir. 2019'da alınan oylara bakacak olursak CHP'nin ne kadar yüksek miktarda oy kazandığını, AKP'nin ve İYİ Parti'nin yüksek miktarda oy kaybettiğini, DEM Parti'nin iyi miktarda oy kazanıp MHP'nin de bir okadar kaybettiğini görebiliriz. 
+<br/><br/>
  
-![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/e34c1782-c1a2-4da5-925d-559114f7e289)
-büyükşehir olmayanlar için il meclisi verisi:
+![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/e34c1782-c1a2-4da5-925d-559114f7e289)<br/><br/>
+Büyükşehir olmayanlar şehirler için il meclisi verisi hesaba alındığında: <br/><br/>
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/b9b9a323-e36b-47a9-9ff0-146947402443)
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/d549def5-ed9d-483f-81b2-eef15c9fee40)
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/850cbef8-727a-4a74-8724-af05e9e45802)
