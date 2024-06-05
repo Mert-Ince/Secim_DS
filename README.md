@@ -2,12 +2,12 @@
 31 mart 2024te gerçekleşen ve "muhalefet için bir zafer" olarak değerlendirilen bu seçimi biraz daha derinden incelemek ve geçtiğimiz yıllardaki seçimlerden ne kadar farklı sonuçlar alındığına objektif bir biçimde bakmak istedim. İnternette hazır bir veri seti bulamasam da detaylı sonuçlar birçok sitede bulunuyordu. Ben de Anadolu Ajansı'nın paylaştığı sonuçları secim.ntv.com.tr adresinden, python kullanarak scrapelemeye ve kendi veri setimi oluşturmaya karar verdim. Bu veri setine "koymayı unutmamışsam burada link olacak" adresinden ulaşabilirsiniz. Aklıma gelen ve cevaplamak istediğim bazı soruları yazarak başlayayım.
 
 ### Cevaplamak istediğim ana sorular:
-1- Partiler geçen seçime kıyasla ne kadar oy/belediye kazandı veya kaybetti? Ortada muhalefet için ne kadar büyük bir zafer olduğunu görmek istiyorsam tabii ki merak ettiğim ilk şey bu.
-2- Geçen seçime kıyasla en büyük farklılık hangi şehirlerde yaşandı? Geçen seçimden bu yana fikri büyük oranda değişmiş şehirleri görmek isterim. Bunu yazarken bir şeyi daha merak ettim, acaba fikri en az değişen şehirler hangileri?
-3- Geçmiş seçimlerde yerel ve genel seçimler arasında nasıl bir bağlantı vardı? Belediye seçimlerinden önde çıkmış olmak, bir sonraki seçimler için gerçekten bir anlam ifade ediyor mu?
+1- Partiler geçen seçime kıyasla ne kadar oy/belediye kazandı veya kaybetti? Ortada muhalefet için ne kadar büyük bir zafer olduğunu görmek istiyorsam tabii ki merak ettiğim ilk şey bu. <br/>
+2- Geçen seçime kıyasla en büyük farklılık hangi şehirlerde yaşandı? Geçen seçimden bu yana fikri büyük oranda değişmiş şehirleri görmek isterim. Bunu yazarken bir şeyi daha merak ettim, acaba fikri en az değişen şehirler hangileri? <br/>
+3- Geçmiş seçimlerde yerel ve genel seçimler arasında nasıl bir bağlantı vardı? Belediye seçimlerinden önde çıkmış olmak, bir sonraki seçimler için gerçekten bir anlam ifade ediyor mu? 
 
 ### Bu seçimle alakasız, elimdeki veriye bakarak aklıma gelen sorular:
-1- En yüksek oy oranı alınan ilçeler hangileri? Bunun çok önemli bir istatistik olduğunu düşünmüyorum fakat %80 tarzı ezici bir üstünlükle alınmış ilçeler varsa bunu görmek isterim.
+1- En yüksek oy oranı alınan ilçeler hangileri? Bunun çok önemli bir istatistik olduğunu düşünmüyorum fakat %80 tarzı ezici bir üstünlükle alınmış ilçeler varsa bunu görmek isterim. <br/>
 2- Bölgeler arasında(Ege, Marmara, Karadeniz) oy verme eğilimi açısından nasıl bir fark var? Büyük şehirler ve diğer şehirler arasında nasıl bir fark var? Elimde bu veri yok fakat 81 şehri bölgelerine ve şehir/büyük şehir olarak ayırmak fazla zor olmayacağından bunu da incelemek isterim.
 
 ## Analiz
@@ -25,11 +25,19 @@ Partilerin aldığı oy sayısını bulmak için ilk önce partilerin her şehir
 Büyükşehir olmayanlar şehirler için il meclisi verisi hesaba alındığında: <br/><br/>
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/b9b9a323-e36b-47a9-9ff0-146947402443)
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/d549def5-ed9d-483f-81b2-eef15c9fee40)
-Sıra,geçen seçime kıyasla şehirlerde en çok oy değişiminin nerelerde ve hangi partilerde görüldüğünü bulmaya geldi. Bunu gerçekleştirmek için önce partilerin,geçen seçimden her şehirdeki oylarını bu seçimde topladıkları oylardan çıkardım ve aradaki farka göre sıraladıktan sonra en yüksek 5 sonucu grafiğe döktüm. Fakat bunu yaptıktan sonra fark ettimki elde ettiğim sonuçlar hep en büyük şehirlerdendi. Bekleneceği üzere en yüksek farklar en yüksek miktarda oyun kullanıldığı şehirlerden çıkıyordu. Benim asıl bulmak istediğim "fikri en çok değişen şehirler" olduğu için farklı bir yöntem kullanmam gerekiyordu. Ben de elimdeki diğer bir veri olan yüzdelik oyları kullandım ve bunların geçen seçime göre ne kadar değiştiğine baktım.
+#### En çok ve en az değişim görülen şehirler
+Sıra, geçen seçime kıyasla şehirlerde en çok oy değişiminin nerelerde ve hangi partilerde görüldüğünü bulmaya geldi. Bunu gerçekleştirmek için önce partilerin,geçen seçimden her şehirdeki oylarını bu seçimde topladıkları oylardan çıkardım ve aradaki farka göre sıraladıktan sonra en yüksek 5 sonucu grafiğe döktüm. Fakat bunu yaptıktan sonra fark ettim ki elde ettiğim sonuçlar hep en büyük şehirlerdendi. Bekleneceği üzere en yüksek farklar en yüksek miktarda oyun kullanıldığı şehirlerden çıkıyordu. Benim asıl bulmak istediğim "fikri en çok değişen şehirler" olduğu için farklı bir yöntem kullanmam gerekiyordu. Ben de elimdeki diğer bir veri olan yüzdelik oyları kullandım ve bunların geçen seçime göre ne kadar değiştiğini inceledim. Bu istediğime çok daha yakın bir sonuç verse de belki daha iyi bir sonuç elde edebileceğimi düşünerek geçen seçimin oy yüzdelerini bu seçiminkilere oranlayarak son bir grafik daha oluşturdum. Bu da istediğime daha uygun bir sonuç vererek örneğin Kayseri'de AKP'nin geçen seçime oranla %40a yakın oy kaybettiğini bize göstermiş oldu. En yüksek 5 değişiklik yaşayanların tamamı AKP'den ve negatif değişiklikler olduğu için herhangi bir renklendirme yapma gereği duymadım. Hatta AKP olmayan ve pozitif olan ilk sonucu 27. sırada Tunceli'de CHP'nin oyunu %26 arttırmasıyla görüyoruz. 
+<br/>
+##### Not: Her şehirde sadece en yüksek değişiklik gören parti dikkate alınmıştır.
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/850cbef8-727a-4a74-8724-af05e9e45802)
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/a0492bf4-66c8-4df4-adcc-a70ba65a20e6)
-![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/affd2c10-70ed-4f92-926d-f9c0a1348ed7)
+![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/9d328a4c-c235-4972-b81e-33e1dc787ba9)
+![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/db5125fb-3682-4b49-828c-edb3d74e4060)
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/cd583828-5cd8-4605-a7b5-aea30690b344)
+#### Yerel ve genel seçimlerin arasındaki bağlantı
+Bu soruyu cevaplayabilmek için biraz araştırma yaptım fakat cevaplanamayacağında karar kıldım. Seçimler uzun aralıklarla tekrarlanıyor ve birkaç seçim öncesi ile günümüz şartları arasında büyük farklar var. Dolayısıyla yapılacak çıkarımlar pek sağlıklı olmayacaktır ve bu soruyu es geçiyorum.
+#### En yüksek oranla alınan ilçeler
+<br/><br/>
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/eb378370-a1d8-403e-bf1d-f31c1236187a)
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/7d73c157-39bd-4928-a690-d4cf1f58a150)
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/c37d621f-8505-47d5-98d6-47d1a9f6b3a2)
