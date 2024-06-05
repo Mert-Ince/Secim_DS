@@ -25,6 +25,7 @@ Partilerin aldığı oy sayısını bulmak için ilk önce partilerin her şehir
 Büyükşehir olmayanlar şehirler için il meclisi verisi hesaba alındığında: <br/><br/>
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/b9b9a323-e36b-47a9-9ff0-146947402443)
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/d549def5-ed9d-483f-81b2-eef15c9fee40)
+Sıra,geçen seçime kıyasla şehirlerde en çok oy değişiminin nerelerde ve hangi partilerde görüldüğünü bulmaya geldi. Bunu gerçekleştirmek için önce partilerin,geçen seçimden her şehirdeki oylarını bu seçimde topladıkları oylardan çıkardım ve aradaki farka göre sıraladıktan sonra en yüksek 5 sonucu grafiğe döktüm. Fakat bunu yaptıktan sonra fark ettimki elde ettiğim sonuçlar hep en büyük şehirlerdendi. Bekleneceği üzere en yüksek farklar en yüksek miktarda oyun kullanıldığı şehirlerden çıkıyordu. Benim asıl bulmak istediğim "fikri en çok değişen şehirler" olduğu için farklı bir yöntem kullanmam gerekiyordu. Ben de elimdeki diğer bir veri olan yüzdelik oyları kullandım ve bunların geçen seçime göre ne kadar değiştiğine baktım.
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/850cbef8-727a-4a74-8724-af05e9e45802)
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/a0492bf4-66c8-4df4-adcc-a70ba65a20e6)
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/affd2c10-70ed-4f92-926d-f9c0a1348ed7)
