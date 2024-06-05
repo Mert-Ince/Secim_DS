@@ -37,10 +37,11 @@ Sıra, geçen seçime kıyasla şehirlerde en çok oy değişiminin nerelerde ve
 #### Yerel ve genel seçimlerin arasındaki bağlantı
 Bu soruyu cevaplayabilmek için biraz araştırma yaptım fakat cevaplanamayacağında karar kıldım. Seçimler uzun aralıklarla tekrarlanıyor ve birkaç seçim öncesi ile günümüz şartları arasında büyük farklar var. Dolayısıyla yapılacak çıkarımlar pek sağlıklı olmayacaktır ve bu soruyu es geçiyorum.
 #### En yüksek oranla alınan ilçeler
+En yüksek oranla alınan ilçelere baktığımızda ise bu konuda DEM Parti ve AKP'nin önde olduğunu görüyoruz. Dediğim gibi çok önemli bir istatistik olmasa da, bir ilçenin %80inden fazlasının tek bir partiye oy atması bence ilginç bir durum.
 <br/><br/>
+![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/4f03ceef-7037-4579-be29-575ec2a8ddde)
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/eb378370-a1d8-403e-bf1d-f31c1236187a)
-![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/7d73c157-39bd-4928-a690-d4cf1f58a150)
-![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/c37d621f-8505-47d5-98d6-47d1a9f6b3a2)
+![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/56ab7025-2c1e-4878-ad41-217841d5a2e9)
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/cbebde3b-b8bd-4a1f-bc83-4c72930846e9)
 
 
