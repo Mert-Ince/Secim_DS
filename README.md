@@ -1,5 +1,5 @@
 # 2024 belediye seçimleri, kazananlar ve kaybedenler:
-31 mart 2024te gerçekleşen ve "muhalefet için bir zafer" olarak değerlendirilen bu seçimi biraz daha derinden incelemek ve geçtiğimiz yıllardaki seçimlerden ne kadar farklı sonuçlar alındığına objektif bir biçimde bakmak istedim. İnternette hazır bir veri seti bulamasam da detaylı sonuçlar birçok sitede bulunuyordu. Ben de Anadolu Ajansı'nın paylaştığı sonuçları secim.ntv.com.tr adresinden, python kullanarak scrapelemeye ve kendi veri setimi oluşturmaya karar verdim. Bu veri setine "koymayı unutmamışsam burada link olacak" adresinden ulaşabilirsiniz. Aklıma gelen ve cevaplamak istediğim bazı soruları yazarak başlayayım.
+31 mart 2024te gerçekleşen ve "muhalefet için bir zafer" olarak değerlendirilen bu seçimi biraz daha derinden incelemek ve geçtiğimiz yıllardaki seçimlerden ne kadar farklı sonuçlar alındığına objektif bir biçimde bakmak istedim. İnternette hazır bir veri seti bulamasam da detaylı sonuçlar birçok sitede bulunuyordu. Ben de Anadolu Ajansı'nın paylaştığı sonuçları secim.ntv.com.tr adresinden, python kullanarak scrapelemeye ve kendi veri setimi oluşturmaya karar verdim. Bu veri setine "https://www.kaggle.com/datasets/mertinc/2024-turkish-local-elections" adresinden ulaşabilirsiniz. Aklıma gelen ve cevaplamak istediğim bazı soruları yazarak başlayayım.
 
 ### Cevaplamak istediğim ana sorular:
 1- Partiler geçen seçime kıyasla ne kadar oy/belediye kazandı veya kaybetti? Ortada muhalefet için ne kadar büyük bir zafer olduğunu görmek istiyorsam tabii ki merak ettiğim ilk şey bu. <br/>
@@ -12,7 +12,7 @@
 
 ## Analiz
 #### Alınan belediye sayısı
-İlk soruya partilerin 2019 seçimlerinde kazandıkları belediye sayılarını grafiğe döküp inceleyerek başlayalım. Bu seçim için muhtemelen en önemlisi olan bu metrikte CHP, kazandığı belediye sayısını, kendileri için yine iyi geçen bir yıl olan 2019a kıyasla neredeyse ikiye katlayarak iktidar partisi AKP ile yer değiştirmiş. DEM Parti ve Yeniden Refah Partisi'de bu metrikte iyi performans gösteren diğer partiler.
+İlk soruya partilerin 2019 seçimlerinde kazandıkları belediye sayılarını grafiğe döküp inceleyerek başlayalım. Bu seçim için muhtemelen en önemlisi olan bu metrikte CHP, kazandığı belediye sayısını, kendileri için yine iyi geçen bir yıl olan 2019a kıyasla neredeyse ikiye katlayarak iktidar partisi AKP ile yer değiştirmiş. DEM Parti ve Yeniden Refah Partisi'de bu konuda iyi performans gösteren diğer partiler.
 <br/><br/>
 
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/822ee742-f766-4b54-a289-550e566d100d)
@@ -41,6 +41,9 @@ En yüksek oranla alınan ilçelere baktığımızda ise bu konuda DEM Parti ve 
 <br/><br/>
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/4f03ceef-7037-4579-be29-575ec2a8ddde)
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/eb378370-a1d8-403e-bf1d-f31c1236187a)
+#### Bölgeler ve büyükşehirler ile şehirler arasında nasıl bir fark var
+Daha önce yaptığımız çıkarımlardan "CHP'nin küçük şehirlerde daha popüler olma ihtimali" nin kesinlikle doğru olmadığını görüyoruz. İlginç bir diğer durum ise muhtemelen AKP'nin oralarda aday göstermemesinden dolayı MHP'nin küçük şehirlerde 10 kata yakın daha popüler olması. HÜDA PAR ve DEM Parti de MHP kadar olmasa da küçük şehirlerde daha popülerler.
+<br/><br/>
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/56ab7025-2c1e-4878-ad41-217841d5a2e9)
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/cbebde3b-b8bd-4a1f-bc83-4c72930846e9)
 
