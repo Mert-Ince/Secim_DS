@@ -46,6 +46,18 @@ Daha önce yaptığımız çıkarımlardan "CHP'nin küçük şehirlerde daha po
 <br/><br/>
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/56ab7025-2c1e-4878-ad41-217841d5a2e9)
 ![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/cbebde3b-b8bd-4a1f-bc83-4c72930846e9)
+---
+![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/3fc659f8-5359-4efc-8518-dcd77ce694d5)
+![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/71236ef9-87ac-49f6-81fa-f9af58c61e8e)
+![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/322a794b-7251-4ae3-aff8-156e02b5ca90)
+![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/cd66ba05-6834-4da1-8ad3-f4dd1cce8ace)
+![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/171657d1-3b7a-4d39-81ab-1570f71a4dda)
+![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/6d8bf449-5b16-452c-8c77-c34ac4d468aa)
+![image](https://github.com/Mert-Ince/Secim_DS/assets/120698325/8fae3c85-4fae-4d4d-91c7-a253a3e8eb8b)
+
+
+
+
 
 
 
